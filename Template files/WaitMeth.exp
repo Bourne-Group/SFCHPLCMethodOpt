@@ -1,0 +1,162 @@
+GENERAL INFORMATION
+ExperimentName,Default Experiment
+ExperimentCreationTime,Mon 13 Feb 2023 14:44:01
+VersionNumber,1.0
+ExperimentDuration,13.5
+AnalogChannelDescription1,Channel 1,Disabled
+AnalogChannelDescription2,Channel 2,Disabled
+AnalogChannelDescription3,Channel 3,Disabled
+AnalogChannelDescription4,Channel 4,Disabled
+AnalogChannelDescription5,Channel 5,Disabled
+AnalogChannelDescription6,Channel 6,Disabled
+AnalogChannelDescription7,Channel 7,Disabled
+AnalogChannelDescription8,Channel 8,Disabled
+MUXAnalogOffset1,0.0000
+MUXAnalogOffset2,0.0000
+MUXAnalogOffset3,0.0000
+MUXAnalogOffset4,0.0000
+MUXAnalogOffset5,0.0000
+MUXAnalogOffset6,0.0000
+MUXAnalogOffset7,0.0000
+MUXAnalogOffset8,0.0000
+ExperimentCalibrationFilename,C:\MassLynx\IntelliStart.pro\AcquDB\AutoCal.cal,Enabled
+ExperimentNegCalibrationFilename,,Disabled
+SolventDelayStart1,0.0000
+SolventDelayEnd1,0.0000
+SolventDelayTemp1,0.0000
+SolventDelayStart2,0.0000
+SolventDelayEnd2,0.0000
+SolventDelayTemp2,0.0000
+SolventDelayStart3,0.0000
+SolventDelayEnd3,0.0000
+SolventDelayTemp3,0.0000
+SolventDelayStart4,0.0000
+SolventDelayEnd4,0.0000
+SolventDelayTemp4,0.0000
+SolventDelayDivertValveEnabled,0
+ReferenceFrequency,0
+ReferenceConeVoltage,35
+ReferenceScanTime,0
+ReferenceCentroidAverage,1
+ReferenceSetMass,0
+ReferenceCollisionEnergy,0
+PositivePolarity,0
+WMode,0
+DREExtended,0
+ExperimentExtension,TIMED_EVENTS_EXTENSION
+ExperimentExtensionData,No Change,No Change,No Change,No Change,No Change,LC,5,No Action,No Action,20,1,0
+NumberOfFunctions,2
+FunctionTypes,MS Scan,MS Scan
+
+FUNCTION 1
+FunctionType,MS Scan
+FunctionDataFormat,Centroid
+FunctionIonMode,ES Mode
+FunctionPolarity,Positive
+FunctionInstrumentConditions,c:\masslynx\default.pro\acqudb\default.ipr
+FunctionStartMass,100
+FunctionEndMass,1250
+FunctionStartTime(min),0
+FunctionEndTime(min),13.5
+FunctionScanTime(sec),0.225
+FunctionInterScanTime(sec),-1
+Scans To Sum,1000000
+NumFunctions,2
+Resolution,1000
+PrimaryScanLock,2
+SecondaryScanLock,2
+ThresholdLock,100
+StepLock,0.02
+FunctionOnOffState,1
+FunctionExclusiveState,0
+PeakDisplayTuneMode,0
+SIRMode,Peak Top
+NumSIRMasses,0
+FastLockOn,1
+UseWMode,0
+ConeVoltage,15
+UseTunePageConeVoltage,0
+UseCVRamp,0
+CVRampStart,30
+CVRampEnd,100
+CVRampStartMass,150
+CVRampEndMass,650
+UseTuneProbeTemp,0
+ProbeTemp,600
+SwitchToUseDeisotopePeakDetect,0
+ProbeTempRampStart,20
+ProbeTempRampEnd,650
+ProbeTempRampInc,10
+Gain,0.1
+PointsPerAMU,32
+Multiple Scan Duration,-1
+StoreZeros,false
+
+FUNCTION 2
+FunctionType,MS Scan
+FunctionDataFormat,Centroid
+FunctionIonMode,ES Mode
+FunctionPolarity,Negative
+FunctionInstrumentConditions,c:\masslynx\default.pro\acqudb\default.ipr
+FunctionStartMass,100
+FunctionEndMass,1250
+FunctionStartTime(min),0
+FunctionEndTime(min),13.5
+FunctionScanTime(sec),0.225
+FunctionInterScanTime(sec),-1
+Scans To Sum,1000000
+NumFunctions,2
+Resolution,1000
+PrimaryScanLock,2
+SecondaryScanLock,2
+ThresholdLock,100
+StepLock,0.02
+FunctionOnOffState,1
+FunctionExclusiveState,0
+PeakDisplayTuneMode,0
+SIRMode,Peak Top
+NumSIRMasses,0
+FastLockOn,1
+UseWMode,0
+ConeVoltage,15
+UseTunePageConeVoltage,0
+UseCVRamp,0
+CVRampStart,30
+CVRampEnd,100
+CVRampStartMass,150
+CVRampEndMass,650
+UseTuneProbeTemp,0
+ProbeTemp,600
+SwitchToUseDeisotopePeakDetect,0
+ProbeTempRampStart,20
+ProbeTempRampEnd,650
+ProbeTempRampInc,10
+Gain,0.1
+PointsPerAMU,32
+Multiple Scan Duration,-1
+StoreZeros,false
+EnableMRMSmooth,0
+MRMSmoothWidth,3
+MRMSmoothRepeats,2
+DefaultPICScanType,Daughter Scan
+DefaultPICActThreshold,20
+DefaultPICMinimumActThreshold,500000
+DefaultPICResetThreshold,50
+DefaultPICMassAboveParent,10
+DefaultPICMinimumMass,40
+DefaultPICCollisionEnergy,20.0000
+DefaultPICDataFormat,Continuum
+DefaultPICScanDuration,1.0000
+DefaultPICScanSpeed,5000.0000
+FractionLowMassIndex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+FractionHighMassIndex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+FractionMultiplier,1
+FractionMode,0
+PointsPerPeakWidth,4.0000
+RequiredPointsPerPeak,12
+SamplingFrequency,2
+ExperimentDetectorGain,0.1000
+ExperimentProbeTemp,600
+ExperimentPosCapillaryVoltage,1.5000
+ExperimentNegCapillaryVoltage,0.8000
+ActualFrequency,2.0000

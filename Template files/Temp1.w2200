@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquitySMMethod language="English" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AcquitySM-Method-R100.xsd" modified="true">
+	<RunTime>20</RunTime>
+	<Comment/>
+	<Mode>ModeSequential_0</Mode>
+	<LoopOption>LoopOptionNeedleOverfill_2</LoopOption>
+	<LoopOffline>LoopOfflineDisable_0</LoopOffline>
+	<WeakWashSolvent>Methanol</WeakWashSolvent>
+	<WeakWashSolventXml>&lt;Solvent version="1" permanent="true" context="all" enabled="true" date="5/1/2010 12:00:00 AM"&gt;&lt;Id&gt;8133CE3B-C77F-4e48-9884-7385E53ABE01&lt;/Id&gt;&lt;Type&gt;Modifier&lt;/Type&gt;&lt;NameId&gt;PermanentSolventMethanol&lt;/NameId&gt;&lt;Name&gt;Methanol&lt;/Name&gt;&lt;Comment /&gt;&lt;Concentration&gt;100&lt;/Concentration&gt;&lt;Viscosity&gt;0.550&lt;/Viscosity&gt;&lt;/Solvent&gt;</WeakWashSolventXml>
+	<WeakWashVolume>600</WeakWashVolume>
+	<StrongWashSolvent>Methanol</StrongWashSolvent>
+	<StrongWashSolventXml>&lt;Solvent version="1" permanent="true" context="all" enabled="true" date="5/1/2010 12:00:00 AM"&gt;&lt;Id&gt;8133CE3B-C77F-4e48-9884-7385E53ABE01&lt;/Id&gt;&lt;Type&gt;Modifier&lt;/Type&gt;&lt;NameId&gt;PermanentSolventMethanol&lt;/NameId&gt;&lt;Name&gt;Methanol&lt;/Name&gt;&lt;Comment /&gt;&lt;Concentration&gt;100&lt;/Concentration&gt;&lt;Viscosity&gt;0.550&lt;/Viscosity&gt;&lt;/Solvent&gt;</StrongWashSolventXml>
+	<StrongWashVolume>200</StrongWashVolume>
+	<ColumnTemperature>HeaterOff_-1</ColumnTemperature>
+	<ColumnTemperatureLimit>5.0</ColumnTemperatureLimit>
+	<SampleTemperature>HeaterOff_-1</SampleTemperature>
+	<SampleTemperatureLimit>5</SampleTemperatureLimit>
+	<Overfill>CustomDisable_-1</Overfill>
+	<ColumnReequilibration>1.0</ColumnReequilibration>
+	<DrawRate>DrawRateMedium_1</DrawRate>
+	<CustomRate>CustomDisable_-1</CustomRate>
+	<Illumination>IlluminationOff_0</Illumination>
+	<NeedleDepth>CustomDisable_-1</NeedleDepth>
+	<PreAspirateAir>CustomDisable_-1</PreAspirateAir>
+	<PostAspirateAir>CustomDisable_-1</PostAspirateAir>
+	<ColumnTemperatureDataEnable>false</ColumnTemperatureDataEnable>
+	<AmbientTemperatureDataEnable>false</AmbientTemperatureDataEnable>
+	<SampleTemperatureDataEnable>false</SampleTemperatureDataEnable>
+	<ElevatorTemperatureDataEnable>false</ElevatorTemperatureDataEnable>
+	<SamplePressureDataEnable>false</SamplePressureDataEnable>
+	<PreheaterTemperatureDataEnable>false</PreheaterTemperatureDataEnable>
+	<Switch1>InitialSwitchState_5</Switch1>
+	<Switch2>InitialSwitchState_5</Switch2>
+	<Switch3>InitialSwitchState_5</Switch3>
+	<Switch4>InitialSwitchState_5</Switch4>
+	<Switch5>InitialSwitchState_5</Switch5>
+	<Switch6>InitialSwitchState_5</Switch6>
+	<HighPressureLimit>5000</HighPressureLimit>
+	<LowPressureLimit>0</LowPressureLimit>
+	<ChartOut>ChartOut_1</ChartOut>
+	<SampleTempAlarmEnable>false</SampleTempAlarmEnable>
+	<ColumnTempAlarmEnable>false</ColumnTempAlarmEnable>
+	<RunEvents>true</RunEvents>
+	<EventTable/>
+	<Function>FunctionNone</Function>
+	<SampleLoop>10.0</SampleLoop>
+	<ColumnManagerPresent>false</ColumnManagerPresent>
+	<ColumnManager>
+		<ValvePosition>ValvePosition_1</ValvePosition>
+		<SetColumnTemperature>HeaterOff_-1</SetColumnTemperature>
+		<EquilibrationTime>5</EquilibrationTime>
+		<EnableColumnTempDataChannel>false</EnableColumnTempDataChannel>
+		<EnableAlarmBand>true</EnableAlarmBand>
+		<SetAlarmBandDegC>5.0</SetAlarmBandDegC>
+		<Switch1>InitialSwitchState_5</Switch1>
+		<Switch2>InitialSwitchState_5</Switch2>
+		<Switch3>InitialSwitchState_5</Switch3>
+		<Switch4>InitialSwitchState_5</Switch4>
+		<RunEvents>false</RunEvents>
+	</ColumnManager>
+	<NeedleOverfillFlush>CustomDisable_-1</NeedleOverfillFlush>
+	<NoInjection>false</NoInjection>
+	<PreHeaterMode>MethodPreHeaterMode_0</PreHeaterMode>
+</AcquitySMMethod>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquityCCMMethod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\AcquityCCM-Method-r100.xsd" version="1" modified="true">
+	<RunTime>16.00</RunTime>
+	<EnableBPRPressureDataChannel>false</EnableBPRPressureDataChannel>
+	<EnableBPRTemperatureDataChannel>false</EnableBPRTemperatureDataChannel>
+	<EnableCO2DataChannel>false</EnableCO2DataChannel>
+	<EnableInletPressureDataChannel>false</EnableInletPressureDataChannel>
+	<!--EnablePhaseVoltageDataChannel>false</EnablePhaseVoltageDataChannel>
+	<EnableLiquidSensorDataChannel>false</EnableLiquidSensorDataChannel-->
+	<GradientTablePressure>
+			<GradientRow>
+				<Time>Initial</Time>
+				<Pressure>1740</Pressure>
+			</GradientRow></GradientTablePressure>
+	<Comment/>
+	<ABPRPressure>true</ABPRPressure>
+</AcquityCCMMethod>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquityCMMethod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\AcquityCM-Method-r100.xsd" version="2" modified="true">
+	<RunTime>20</RunTime>
+	<Comment/>
+	<ColumnManager>
+		<ValvePosition>ValvePosition_1</ValvePosition>
+		<ValvePos1>ValvePositionAdv_-4</ValvePos1>
+		<ValvePos2>ValvePositionAdv_-4</ValvePos2>
+		<ValvePos3>ValvePositionAdv_-4</ValvePos3>
+		<ValvePos4>ValvePositionAdv_-4</ValvePos4>
+		<ValvePos5>ValvePositionAdv_-4</ValvePos5>
+		<SetColumnTemperature>50</SetColumnTemperature>
+		<TemperatureZone1>HeaterOff_-1</TemperatureZone1>
+		<TemperatureZone2>HeaterOff_-1</TemperatureZone2>
+		<TemperatureZone3>HeaterOff_-1</TemperatureZone3>
+		<TemperatureZone4>HeaterOff_-1</TemperatureZone4>
+		<TemperatureZone5>HeaterOff_-1</TemperatureZone5>
+		<TemperatureZone6>HeaterOff_-1</TemperatureZone6>
+		<EquilibrationTime>5</EquilibrationTime>
+		<EnablePreheaterTempDataChannel>false</EnablePreheaterTempDataChannel>
+		<EnableValvePositionDataChannel>false</EnableValvePositionDataChannel>
+		<EnableAmbientTempDataChannel>false</EnableAmbientTempDataChannel>
+		<EnableColumnTempDataChannel>false</EnableColumnTempDataChannel>
+		<EnableColumnTempDataChannel1>false</EnableColumnTempDataChannel1>
+		<EnableColumnTempDataChannel2>false</EnableColumnTempDataChannel2>
+		<EnableColumnTempDataChannel3>false</EnableColumnTempDataChannel3>
+		<EnableColumnTempDataChannel4>false</EnableColumnTempDataChannel4>
+		<EnableColumnTempDataChannel5>false</EnableColumnTempDataChannel5>
+		<EnableColumnTempDataChannel6>false</EnableColumnTempDataChannel6>
+		<EnableAlarmBand>true</EnableAlarmBand>
+		<SetAlarmBandDegC>5.0</SetAlarmBandDegC>
+		<Switch1>InitialSwitchState_5</Switch1>
+		<Switch2>InitialSwitchState_5</Switch2>
+		<Switch3>InitialSwitchState_5</Switch3>
+		<Switch4>InitialSwitchState_5</Switch4>
+		<RunEvents>false</RunEvents>
+		<PreAnalysisTime>false</PreAnalysisTime>
+		<ShutDownAllColumns>false</ShutDownAllColumns>
+		<Mode>0</Mode>
+		<EventTable/>
+		<TwoDRepeat>false</TwoDRepeat>
+		<PreHeaterMode>MethodPreHeaterMode_1</PreHeaterMode>
+	</ColumnManager>
+</AcquityCMMethod>
